@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and outputs
+*.log
+wandb/
+outputs/
+runs/
+logs/
+nohup.out
+
+# Checkpoints (NEVER commit, very large)
+checkpoints/
+ckpts/
+*.bin
+*.pt
+*.safetensors
+*.ckpt
+
+# Cached HF data
+rl_datasets/hf_cache/
+rl_datasets/gsm8k/
+rl_datasets/math/
+rl_datasets/math500/
+rl_datasets/aime/
+rl_datasets/sft/
+rl_datasets/sft_mix/
+
+# Generated paper artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.out
+texput.log
+
+# OS
+Thumbs.db
